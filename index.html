@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>WebStudio</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+    <header class="page-header">
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html">Web<span class="header-logo-part">Studio</span></a>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#">Studio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
             </ul>
         </nav>
         <address>
@@ -72,6 +77,25 @@
                     <p>UI Designer</p>
                 </li>
             </ul>
+        </section>
+        <section>
+            <section class="portfolio">
+                <h2 class="portfolio-title">Our Portfolio</h2>
+                <ul class="portfolio-list">
+                    
+                    <li class="portfolio-list-item"><img src="./images/app.jpg" alt="Banking App.img" width="360px" height="300px"><h3 class="portfolio-img-title">Banking App</h3><p class="portfolio-descr">App</p></li>
+                    
+                    <li class="portfolio-list-item"><img src="./images/payment.jpg" alt="Cashless Pyment.img" width="360px" height="300px"><h3 class="portfolio-img-title">Cashless Payment</h3><p class="portfolio-descr">Marketing</p></li>
+                    
+                    <li class="portfolio-list-item"><img src="./images/meditation-app.jpg" alt="Meditation App.img" width="360px" height="300px"><h3 class="portfolio-img-title">Meditation App</h3><p class="portfolio-descr">App</p></li>
+                    
+                    <li class="portfolio-list-item"><img src="./images/taxi.jpg" alt="Taxi Service.img" width="360px" height="300px"><h3 class="portfolio-img-title">Taxi Service</h3><p class="portfolio-descr">Marketing</p></li>
+                    
+                    <li class="portfolio-list-item"><img src="./images/screen.jpg" alt="Screen Illustration.img" width="360px" height="300px"><h3 class="portfolio-img-title">Screen Illustrations</h3><p class="portfolio-descr">Design</p></li>
+                    
+                    <li class="portfolio-list-item"><img src="./images/courses.jpg" alt="Online Corses.img" width="360px" height="300px"><h3 class="portfolio-img-title">Online Courses</h3><p class="portfolio-descr">Marketing</p></li>
+                </ul>
+            </section> 
         </section>
     </main>
     <footer>

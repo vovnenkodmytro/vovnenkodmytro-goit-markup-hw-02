@@ -1,0 +1,27 @@
+head {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+/*#region Portfolio */
+
+.portfolio-title {
+    font-family: "Roboto","Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-img-title {
+    font-family: "Roboto","Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.portfolio-descr {
+    font-family: "Roboto","Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/*#endregion Portfolio */
